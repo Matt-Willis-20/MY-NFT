@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MY NFT</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');</style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <i class="bi bi-grid-1x2-fill"></i>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Market Place</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">All NFTs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Activities</a>
+                      </li>
+                    </ul>
+                    <div class="nav-button-grp">
+                        <button class="btn register-btn btn-sm nav-btn" type="button">Register</button>
+                        <button class="btn login-button btn-sm nav-btn" type="button">Log In</button>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="row sub-section">
+                    <div class="hero-left col-md-7 col-12">
+                        <h1>Discover, collect, and sell extraordinary NFTs</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <button type="button" class="btn btn-primary linear-gradient">Explore now</button>
+                    </div>
+                    <div class="hero-right col-md-5 col-12">
+                    </div>
+                </div>
+            </section>
+            <section class="hot-auctions">
+                <div class="auctions-sub-head sub-head">
+                    <h2>Hot Auctions</h2>
+                    <button type="button" class="btn btn-sm btn-outline-dark">See all auctions</button>
+                </div>
+                <div class="card-container row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="/images/Auction1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <span>Collection name:</span>  
+                              <h5 class="card-title">NFT name Ex Shiba</h5>
+                              <div class="bid-info-container">
+                                <div class="current-bid">
+                                    <p>Current bid</p>
+                                    <span>300 ETH</span>
+                                    <p>$130,729.12</p>
+                                </div>
+                                <div class="auction-info">
+                                    <p>Auction ending in</p>
+                                    <span>03d : 22h : 05m</span>
+                                    <p>Bids: 25</p>
+                                </div>
+                              </div>
+                              <div class="card-line linear-gradient"></div>
+                              <div class="artist-info-container">
+                                <div class="artist-info">
+                                    <i class="bi bi-person-circle"></i>
+                                    <p>Artist Name</p>
+                                </div>
+                                <div class="like-info">
+                                    <i class="bi bi-heart-fill"></i>
+                                    <p>1251</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="/images/Auction2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <span>Collection name:</span>  
+                              <h5 class="card-title">NFT name Ex Shiba</h5>
+                              <div class="bid-info-container">
+                                <div class="current-bid">
+                                    <p>Current bid</p>
+                                    <span>300 ETH</span>
+                                    <p>$130,729.12</p>
+                                </div>
+                                <div class="auction-info">
+                                    <p>Auction ending in</p>
+                                    <span>03d : 22h : 05m</span>
+                                    <p>Bids: 25</p>
+                                </div>
+                              </div>
+                              <div class="card-line linear-gradient"></div>
+                              <div class="artist-info-container">
+                                <div class="artist-info">
+                                    <i class="bi bi-person-circle"></i>
+                                    <p>Artist Name</p>
+                                </div>
+                                <div class="like-info">
+                                    <i class="bi bi-heart-fill"></i>
+                                    <p>1251</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="/images/Auction3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <span>Collection name:</span>  
+                              <h5 class="card-title">NFT name Ex Shiba</h5>
+                              <div class="bid-info-container">
+                                <div class="current-bid">
+                                    <p>Current bid</p>
+                                    <span>300 ETH</span>
+                                    <p>$130,729.12</p>
+                                </div>
+                                <div class="auction-info">
+                                    <p>Auction ending in</p>
+                                    <span>03d : 22h : 05m</span>
+                                    <p>Bids: 25</p>
+                                </div>
+                              </div>
+                              <div class="card-line linear-gradient"></div>
+                              <div class="artist-info-container">
+                                <div class="artist-info">
+                                    <i class="bi bi-person-circle"></i>
+                                    <p>Artist Name</p>
+                                </div>
+                                <div class="like-info">
+                                    <i class="bi bi-heart-fill"></i>
+                                    <p>1251</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="/images/Auction1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <span>Collection name:</span>  
+                              <h5 class="card-title">NFT name Ex Shiba</h5>
+                              <div class="bid-info-container">
+                                <div class="current-bid">
+                                    <p>Current bid</p>
+                                    <span>300 ETH</span>
+                                    <p>$130,729.12</p>
+                                </div>
+                                <div class="auction-info">
+                                    <p>Auction ending in</p>
+                                    <span>03d : 22h : 05m</span>
+                                    <p>Bids: 25</p>
+                                </div>
+                              </div>
+                              <div class="card-line linear-gradient"></div>
+                              <div class="artist-info-container">
+                                <div class="artist-info">
+                                    <i class="bi bi-person-circle"></i>
+                                    <p>Artist Name</p>
+                                </div>
+                                <div class="like-info">
+                                    <i class="bi bi-heart-fill"></i>
+                                    <p>1251</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </section>
+            <section class="list-your-art">
+                <div class="sub-section row">
+                    <div class="list-your-art-left col-7">
+                        <div class="art-card-container">
+                            <div class="art-card">
+                                <div class="art-card-img-container">
+                                    <img src="/images/Auction2.jpg" alt="">
+                                </div>
+                                <div class="art-card-name-container">
+                                    <span>Awkward Astronauts</span>
+                                    <i class="bi bi-award-fill"></i>
+                                </div>
+                                <p>Additional info</p>
+                            </div>
+                            <div class="art-card">
+                                <div class="art-card-img-container">
+                                    <img src="/images/Auction3.jpg" alt="">
+                                </div>
+                                <div class="art-card-name-container">
+                                    <span>Awkward Astronauts</span>
+                                    <i class="bi bi-award-fill"></i>
+                                </div>
+                                <p>Additional info</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-your-art-right col-5">
+                        <h2>List your art on MyNFT</h2>
+                        <p>Are you an artist or NFT project creator? Get in touch with us to get your content on Nifty Gateway!</p>
+                        <div class="artist-btn-group">
+                            <button type="button" class="btn artist-btn linear-gradient">I am an artist</button>
+                            <button type="button" class="btn buyer-btn"><span> I am a buyer</span></button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="browse">
+                <div class="sub-head">
+                    <h2>Browse by category</h2>
+                    <button type="button" class="btn btn-sm btn-outline-dark">See all categories</button>
+                </div>
+                <div class="category-container row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card category-card bg-light text-white">
+                            <img src="/images/Auction2.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">Bored Apes</h5>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card category-card bg-light text-white">
+                            <img src="/images/Auction2.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">Card title</h5>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card category-card bg-light text-white">
+                            <img src="/images/Auction2.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">Card title</h5>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card category-card bg-light text-white">
+                            <img src="/images/Auction2.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">Card title</h5>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card category-card bg-light text-white">
+                            <img src="/images/Auction2.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">Card title</h5>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card category-card bg-light text-white">
+                            <img src="/images/Auction2.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">Card title</h5>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card category-card bg-light text-white">
+                            <img src="/images/Auction2.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">Card title</h5>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card category-card bg-light text-white">
+                            <img src="/images/Auction2.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">Card title</h5>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </section>
+            <section class="why">
+                <div class="why-container row">
+                    <div class="why-container-left col-12 col-md-6 ">
+                        <h3>Why MyNFT?</h3>
+                        <p>MyNFT is the premier marketplace for item in blockchain, which are digital
+                            items you can truly own. Digital Items have existed for a long time, but
+                            never like this.</p>
+                            <button type="button" class="btn btn-primary linear-gradient">Explore the marketplace</button>    
+                    </div>
+                    <div class='why-container-right col-12 col-md-5'>
+                    </div>
+                </div>
+            </section>
+            <section class="create">
+                <h2>Create and Sell your NFTs</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="logo-container">
+                            <i class="bi bi-wallet-fill"></i>
+                        </div>
+                        <span>1. Set up your wallet</span>
+                        <p>Choose between auctions, fixed-price listings, and declining-price listings. We will help to sell your NFTs!</p>
+                    </div>
+                    <div class="col">
+                        <div class="logo-container">
+                            <i class="bi bi-wallet-fill"></i>
+                        </div>
+                        <span>2. Set up your wallet</span>
+                        <p>Choose between auctions, fixed-price listings, and declining-price listings. We will help to sell your NFTs!</p>
+                    </div>
+                    <div class="col">
+                        <div class="logo-container">
+                            <i class="bi bi-wallet-fill"></i>
+                        </div>
+                        <span>3. Set up your wallet</span>
+                        <p>Choose between auctions, fixed-price listings, and declining-price listings. We will help to sell your NFTs!</p>
+                    </div>
+                    <div class="col">
+                        <div class="logo-container">
+                            <i class="bi bi-wallet-fill"></i>
+                        </div>
+                        <span>4. Set up your wallet</span>
+                        <p>Choose between auctions, fixed-price listings, and declining-price listings. We will help to sell your NFTs!</p>
+                    </div>
+                </div>
+            </section>
+            <section class="download">
+                <div class="row"></div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-container row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col">
+                    <div class="brand-container">
+                        <a class="navbar-brand" href="#">
+                            <i class="bi bi-grid-1x2-fill"></i>
+                        </a>
+                        <span>MyNFT.com</span>
+                    </div>
+                    <p>The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.</p>
+                </div>
+                <div class="col">
+                    <div class="footer-links-container">
+                        <ul class="market-place-links footer-links">
+                            <li class="market-place-link">Market Place</li>
+                            <li class="market-place-link"><a href="#">Explore</a></li>
+                            <li class="market-place-link"><a href="#">How it works</a></li>
+                            <li class="market-place-link"><a href="#">Jobs</a></li>
+                            <li class="market-place-link"><a href="#">Help Centre</a></li>
+                            <li class="market-place-link"><a href="#">Blogs</a></li>
+                        </ul>
+                        <ul class="company-links footer-links">
+                            <li class="market-place-link">Company</li>
+                            <li class="market-place-link"><a href="#">About Us</a></li>
+                            <li class="market-place-link"><a href="#">Contact Us</a></li>
+                            <li class="market-place-link"><a href="#">Feature</a></li>
+                            <li class="market-place-link"><a href="#">Discover</a></li>
+                        </ul>
+                        <ul class="company-links"></ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <form action="">
+                        <label for="">Get our latest updates</label>
+                        <input type="email" placeholder="email address">
+                    </form>
+                    <div class="social-container">
+                        <span>Join our community</span>
+                        <div class="social-icons-container">
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-play-btn-fill"></i>
+                            <i class="bi bi-send-fill"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <Script src="index.js"></Script>
+    </body>
+</html>
