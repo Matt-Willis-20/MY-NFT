@@ -6,6 +6,7 @@ https://www.figma.com/community/file/1142136774705689645
 * {
     font-family: --var(font-family);
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -131,12 +132,17 @@ section {
     font-weight: 500;
     font-size: 18px;
     margin-top: 2rem;
+    transition: 0.1s ease;
 }
 
-.hero-right{ 
-    position: relative;
-    display: flex;
-    align-items: center;
+.hero-left button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 2px 2px 0 white;
+}
+
+.hero-left button:active {
+    transform: translate(0, 0);
+    box-shadow: none;
 }
 
 @media screen and (max-width: 960px) {
@@ -316,7 +322,7 @@ section {
 }
 
 .art-card {
-    padding: 1rem;
+    padding: 0.75rem;
     background-color: #fff;
     box-shadow: 20px 20px 30px rgba(124, 65, 154, 0.1);
     border-radius: 16px;
@@ -324,6 +330,15 @@ section {
     width: 50%;
     display: flex;
     flex-direction: column;
+    transition: 0.2s ease;
+}
+
+.art-card-container:hover .art-card:first-child {
+    rotate: -8deg;
+}
+
+.art-card-container:hover .art-card:last-child {
+    rotate: 8deg;
 }
 
 .art-card:last-child {
@@ -396,6 +411,7 @@ section {
     linear-gradient(256.8deg, #0698F9 13.5%, #fc299d 87.25%) border-box;
     border: 3px solid transparent;
     color: #fff;
+    transition: 0.1s ease;
 }
 
 .buyer-btn {
@@ -404,6 +420,7 @@ section {
     linear-gradient(256.8deg, #0698F9 13.5%, #fc299d 87.25%) border-box;
     border: 3px solid transparent;
     margin-left: 20px;
+    transition: 0.1s ease;
 }
 
 .buyer-btn span {
@@ -413,7 +430,7 @@ section {
 }
 
 .artist-btn:hover, .buyer-btn:hover {
-    scale: 1.04;
+    scale: 1.05;
     color: white;
 }
 
@@ -502,6 +519,18 @@ section {
 
 .why-container-left button {
     max-width: 225px;
+    border: none;
+    transition: 0.1s ease;
+}
+
+.why-container-left button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 2px 2px 0 white;
+}
+
+.why-container-left button:active {
+    transform: translate(0, 0);
+    box-shadow: none;
 }
 
     
@@ -521,6 +550,10 @@ section {
 .create h2 {
     text-align: center;
     margin-bottom: 4rem;
+}
+
+.create-container {
+    padding: 1rem;
 }
 
 .logo-container {
